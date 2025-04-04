@@ -2,9 +2,9 @@ package proyecto.modelo;
 
 public class Socio {
       private static final String URL = "jdbc:sqlite:biblioteca.db";
-    private static final Scanner scanner = new Scanner(System.in);
+      private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         crearTabla();
         while (true) {
             System.out.println("\nMenú:");
